@@ -18,12 +18,9 @@ document.querySelector('#app').innerHTML = `
 <p class="text-center font-mono m-2 mb-10 md:mb-2 text-lg xs:text-xl sm:text-2xl md:text-3xl xl:text-3xl">↓ No copyright sound ↓</p>
 <div class="h-3/5 mx-auto w-3/4 flex flex-col justify-around items-center p-1 gap-1 rounded-xl">
 
-<button class="w-56 sm:w-3/4 h-16 sm:h-1/6 p-1 px-2 rounded-xl border-2 border-black bg-green-600 text-white xs:text-2xl sm:text-2xl font-mono font-semibold hover:bg-green-800 hover:scale-105"><a href="https://open.spotify.com/album/0L5IX3SUArnyecopB3rNAd?si=ZMiX1hNGTsGQMDXtAPGsJQ" target="_blank" rel="noopener noreferrer">Spotify</a></button>
-
-<button class="w-56 sm:w-3/4 h-16 sm:h-1/6 p-1 px-2 rounded-xl border-2 border-black bg-red-600 text-white xs:text-2xl sm:text-2xl font-mono font-semibold hover:bg-red-800 hover:scale-105"><a href="https://music.youtube.com/playlist?list=OLAK5uy_nDJQFIpWo9dLNZ-i6-koIA85nSYvbvz5g&feature=share" target="_blank" rel="noopener noreferrer">Youtube Music</a></button>
-
-<button class="w-56 sm:w-3/4 h-16 sm:h-1/6 p-1 px-2 rounded-xl border-2 border-black bg-gray-700 text-white xs:text-2xl sm:text-2xl font-mono font-semibold hover:bg-gray-900 hover:scale-105"><a href="https://tidal.com/browse/album/250233328" target="_blank" rel="noopener noreferrer">Tidal</a></button>
-
+<a a href="https://open.spotify.com/album/0L5IX3SUArnyecopB3rNAd?si=ZMiX1hNGTsGQMDXtAPGsJQ" target="_blank" rel="noopener noreferrer" class="flex justify-center align-middle items-center w-56 sm:w-3/4 h-16 sm:h-1/6 p-0 px-1 rounded-xl border-2 border-black bg-green-600 text-white xs:text-2xl sm:text-2xl font-mono font-semibold hover:bg-green-800 hover:scale-105">Spotify</a>
+<a href="https://music.youtube.com/playlist?list=OLAK5uy_nDJQFIpWo9dLNZ-i6-koIA85nSYvbvz5g&feature=share" target="_blank" rel="noopener noreferrer" class="flex justify-center align-middle items-center w-56 sm:w-3/4 h-16 sm:h-1/6 p-0 px-1 rounded-xl border-2 border-black bg-red-600 text-white xs:text-2xl sm:text-2xl font-mono font-semibold hover:bg-red-800 hover:scale-105">Youtube Music</a>
+<a href="https://tidal.com/browse/album/250233328"  target="_blank" rel="noopener noreferrer" class="flex justify-center align-middle items-center w-56 sm:w-3/4 h-16 sm:h-1/6 p-0 px-1 rounded-xl border-2 border-black bg-gray-700 text-white xs:text-2xl sm:text-2xl font-mono font-semibold hover:bg-gray-900 hover:scale-105">Tidal</a>
 
 
 </div>
